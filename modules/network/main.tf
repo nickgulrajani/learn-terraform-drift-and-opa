@@ -51,7 +51,7 @@ data "aws_ami" "amazon_linux" {
   }
 }
 
-resource "aws_instance" "bastion" {
+data "aws_instance" "bastion" {
   instance_type = var.bastion_instance_type
   ami           = data.aws_ami.amazon_linux.id
 
