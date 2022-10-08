@@ -1,7 +1,8 @@
 terraform {
   cloud {
+   organization = "cdw-dvs"
     workspaces {
-      name = "learn-terraform-drift-and-opa"
+      name = "test-opa-policies"
     }
   }
 
@@ -14,3 +15,4 @@ terraform {
 
   required_version = "~> 1.3.0"
 }
+
