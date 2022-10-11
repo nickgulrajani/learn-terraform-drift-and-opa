@@ -2,7 +2,7 @@ terraform {
   cloud {
    organization = "cdw-dvs"
     workspaces {
-      name = "test-opa-policies"
+      name = "opa-policies"
     }
   }
 
